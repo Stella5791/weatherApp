@@ -17,7 +17,112 @@
       href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Bricolage+Grotesque:opsz,wght@10..48,200;10..48,300;10..48,400;10..48,600&family=Comfortaa:wght@300;400;600&family=PT+Mono&family=Roboto:wght@100&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="index.css" />
+    <style>
+      body {
+        font-family: "Comfortaa", Arial, Helvetica, sans-serif;
+        font-size: 14px;
+      }
+      h1 {
+        font-size: 25px;
+        text-align: left;
+        margin-left: 10px;
+        padding-top: 30px;
+        padding-left: 20px;
+      }
+      h2 {
+        font-size: 22px;
+      }
+      a {
+        text-decoration: none;
+      }
+      p {
+        font-size: 14px;
+      }
+      h3 {
+        color: rgb(245, 239, 239);
+        font-size: 20px;
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0);
+        border-radius: 10px;
+      }
+      footer {
+        font-family: "PT Mono", monospace;
+        text-align: center;
+        padding: auto;
+      }
+      #root {
+        background-color: #8c8c8c;
+        border-radius: 10px;
+      }
+      .container {
+        background-color: #a6a6a6;
+        max-width: 600px;
+        margin: 0 auto;
+        margin-top: 10px;
+        padding: 10px;
+        border-radius: 10px;
+      }
+      .current-info {
+        background-image: url("blue-skies4.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 5px;
+        border-radius: 10px;
+      }
+      .button {
+        color: white;
+        border-color: white;
+      }
+
+      .location-icon {
+        text-decoration: none;
+      }
+      .current-weather {
+        text-align: center;
+        margin-right: 20px;
+      }
+      .current-weather-icon {
+        width: 80px;
+      }
+      .units {
+        position: relative;
+        top: -10px;
+        font-size: 10px;
+        text-decoration: none;
+      }
+
+      .further-info {
+        list-style-type: none;
+        background-color: rgba(255, 255, 255, 0.3);
+        border-radius: 10px;
+        margin-right: 5px;
+        margin-top: 10px;
+        padding-left: 10px;
+        padding-top: 10px;
+      }
+      .day-forecast {
+        background-color: rgba(255, 255, 255, 0.644);
+        border-radius: 10px;
+        line-height: 25px;
+        padding: 5px;
+        margin: 10px;
+      }
+      .day-forecast-icon {
+        width: 30px;
+      }
+      .day {
+        font-size: 13px;
+      }
+      .temp,
+      .wind,
+      .hum,
+      .rain {
+        font-size: 12px;
+        text-align: left;
+      }
+    </style>
   </head>
   <body>
     <div id="root">
